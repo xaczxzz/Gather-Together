@@ -1,0 +1,24 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2016",           /* 자바스크립트 버전 설정 */
+    "module": "esnext",           /* ES 모듈 구문 유지 */
+    "jsx": "react-native",        /* React Native JSX 지원 */
+    "baseUrl": "./src",              /* 경로 설정 */
+    "allowSyntheticDefaultImports": true,
+    "paths": {                    
+      "@components/*": ["src/features/components/*"],
+      "@pages/*": ["src/features/screens/*"],
+      "@types/*": ["src/features/types/*"],
+      "@types": ["react-navigation", "react-navigation-stack"],  // 필요에 따라 추가
+      "@utils/*": ["src/features/utils/*"]
+    },
+    "esModuleInterop": true,      /* CommonJS 모듈 호환성 */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,               /* 엄격한 타입 검사 */
+    "skipLibCheck": true          /* 라이브러리 타입 검사 생략 */
+    
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}

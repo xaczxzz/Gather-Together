@@ -1,0 +1,81 @@
+# Resolve react_native_pods.rb with node to allow for hoisting
+def node_require(script)
+  # Resolve script with node to allow for hoisting
+  require Pod::Executable.execute_command('node', ['-p',
+    "require.resolve(
+      '#{script}',
+      {paths: [process.argv[1]]},
+    )", __dir__]).strip
+end
+
+node_require('react-native/scripts/react_native_pods.rb')
+node_require('react-native-permissions/scripts/setup.rb')
+workspace 'ios/ClubAttendanceApp.xcodeproj'
+
+platform :ios, min_ios_version_supported
+prepare_react_native_project!
+
+
+
+# ⬇️ 필요한 코드를 주석해제하여 사용
+setup_permissions([
+  # 'AppTrackingTransparency',
+  # 'Bluetooth',
+  # 'Calendars',
+  # 'CalendarsWriteOnly',
+  'Camera',
+  # 'Contacts',
+  # 'FaceID',
+  # 'LocationAccuracy',
+  # 'LocationAlways',
+  # 'LocationWhenInUse',
+  'MediaLibrary',
+  'Microphone',
+  # 'Motion',
+  # 'Notifications',
+  # 'PhotoLibrary',
+  # 'PhotoLibraryAddOnly',
+  # 'Reminders',
+  # 'Siri',
+  # 'SpeechRecognition',
+  # 'StoreKit',
+])
+
+linkage = ENV['USE_FRAMEWORKS']
+if linkage != nil
+  Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
+  use_frameworks! :linkage => static
+end
+# linkage.to_sym
+# Add use_modular_headers! here to avoid issues with dependencies
+# use_modular_headers! # This is the key change
+
+# Start of the target block for the main app
+target 'ClubAttendanceApp' do
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    :app_path => "#{Pod::Config.instance.installation_root}/.."
+  )
+
+  # Target for the tests
+  target 'ClubAttendanceAppTests' do
+    inherit! :complete
+
+    pod 'React', :path => '../node_modules/react-native', :subspecs => [
+      # Add any additional React subspecs here if necessary
+    ]
+  end # End of the ClubAttendanceAppTests target
+
+  post_install do |installer|
+    # React Native post-installation setup
+    react_native_post_install(
+      installer,
+      config[:reactNativePath],
+      :mac_catalyst_enabled => false,
+      # :ccache_enabled => true
+    )
+  end # End of post_install block
+
+end # End of the ClubAttendanceApp target

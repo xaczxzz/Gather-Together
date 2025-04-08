@@ -1,0 +1,1 @@
+/Users/ryumyungjae/Desktop/Project/ClubAttendanceApp/ClubAttendanceApp/node_modules/react-native-vector-icons/Fonts
