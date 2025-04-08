@@ -47,6 +47,10 @@
 
 </br>
 
+## 작업일지 
+- **[개발 작업 일지](https://fringe-girdle-ad7.notion.site/16fb7e7082ee8028a3b9eaf39852ed03)**
+
+
 ## RAG 생성 과정
 
 <div align="center">
