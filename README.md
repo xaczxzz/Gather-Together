@@ -58,6 +58,7 @@
 ![Simulator Screenshot - iPhone 16 Pro - 2025-04-08 at 17 15 12](https://github.com/user-attachments/assets/9d150c59-95bb-42c4-a22f-3ed32cb8c2d8)
 
 ![Simulator Screenshot - iPhone 16 Pro - 2025-04-08 at 17 14 59](https://github.com/user-attachments/assets/83f88a67-4e16-4d9d-9683-ab374225c6e7)
+![개인 출석 현황](https://github.com/user-attachments/assets/d3a9a473-84c5-4539-b699-53c2a609afc2)
 
 ![게시판](https://github.com/user-attachments/assets/3fc73286-1a79-4e25-93cc-1913f0585f30)
 ![출석 변경](https://github.com/user-attachments/assets/e9ba9e2c-38fe-4b4a-b4fc-ee92da3be430)
