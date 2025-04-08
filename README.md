@@ -51,7 +51,7 @@
 - **[개발 작업 일지](https://fringe-girdle-ad7.notion.site/16fb7e7082ee8028a3b9eaf39852ed03)**
 
 
-## RAG 생성 과정
+## 챗봇 과정
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/9466fac8-7bc2-4b59-96ef-ec3959fed119" alt="동아리 챗봇" width="300" />
