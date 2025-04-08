@@ -69,6 +69,7 @@ d8)
 ![멤버 명단](https://github.com/user-attachments/assets/9b2a1208-467f-4f91-9a6f-8d984686d74b)
 ![메인 화면](https://github.com/user-attachments/assets/4258adf9-09a4-4bdd-8a69-5fe9b38bbf20)
 ![회원 가입](https://github.com/user-attachments/assets/c2ac8598-e6ef-497a-9e17-9aac417c0008)
+![동아리-챗봇](https://github.com/user-attachments/assets/9466fac8-7bc2-4b59-96ef-ec3959fed119)
 
 
 ## 🛠️ 기술 스택
