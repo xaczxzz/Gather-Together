@@ -49,32 +49,48 @@
 
 </br>
 
+## RAG 생성 과정
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/9466fac8-7bc2-4b59-96ef-ec3959fed119" alt="동아리 챗봇" width="300" />
+</div>
+
 ## 📱 프로젝트 화면 구성
 
-![신청 멤버](https://github.com/user-attachments/assets/448ee816-33ac-493f-899b-2e755a6a5811)
 
-![Simulator Screenshot - iPhone 16 Pro - 2025-04-04 at 22 09 36](https://github.com/user-attachments/assets/dc186583-7467-4201-ae66-e96be8d3fc20)
 
-![Simulator Screenshot - iPhone 16 Pro - 2025-04-08 at 17 15 12](https://github.com/user-attachments/assets/9d150c59-95bb-42c4-a22f-3ed32cb8c2
-![로그인 페이지](https://github.com/user-attachments/assets/d5bed1a7-8313-4a44-b40c-d6398c50314c)
-d8)
 
-![Simulator Screenshot - iPhone 16 Pro - 2025-04-08 at 17 14 59](https://github.com/user-attachments/assets/83f88a67-4e16-4d9d-9683-ab374225c6e7)
-![개인 출석 현황](https://github.com/user-attachments/assets/d3a9a473-84c5-4539-b699-53c2a609afc2)
+### 🔐 회원 관련 화면
+| 회원 가입 | 메인 화면 |
+|-----------|------------|
+| ![회원 가입](https://github.com/user-attachments/assets/c2ac8598-e6ef-497a-9e17-9aac417c0008) | ![로그인 페이지](https://github.com/user-attachments/assets/d5bed1a7-8313-4a44-b40c-d6398c50314c)
+d8) |
 
-![게시판](https://github.com/user-attachments/assets/3fc73286-1a79-4e25-93cc-1913f0585f30)
-![출석 변경](https://github.com/user-attachments/assets/e9ba9e2c-38fe-4b4a-b4fc-ee92da3be430)
 
-![출석 명단](https://github.com/user-attachments/assets/9af2f4fa-90a0-4b1d-afaa-7f880c9a3a42)
-![멤버 명단](https://github.com/user-attachments/assets/9b2a1208-467f-4f91-9a6f-8d984686d74b)
-![메인 화면](https://github.com/user-attachments/assets/4258adf9-09a4-4bdd-8a69-5fe9b38bbf20)
-![회원 가입](https://github.com/user-attachments/assets/c2ac8598-e6ef-497a-9e17-9aac417c0008)
-![동아리-챗봇](https://github.com/user-attachments/assets/9466fac8-7bc2-4b59-96ef-ec3959fed119)
+
+---
+### 📋 출석 관련 화면
+| 관리자 출석 명단 | 관리자 출석 변경 | 개인 출석 현황 | 관리자 출석 |
+|-----------|------------|----------|--------------|
+| ![출석 명단](https://github.com/user-attachments/assets/9af2f4fa-90a0-4b1d-afaa-7f880c9a3a42) | ![출석 변경](https://github.com/user-attachments/assets/e9ba9e2c-38fe-4b4a-b4fc-ee92da3be430) | ![개인 출석 현황](https://github.com/user-attachments/assets/d3a9a473-84c5-4539-b699-53c2a609afc2) |![관리자 출석 확인 ](https://github.com/user-attachments/assets/83f88a67-4e16-4d9d-9683-ab374225c6e7)
+
+
+---
+
+### 🧑‍🤝‍🧑 멤버 및 신청 화면
+| 신청 멤버 | 멤버 명단 |
+|-----------|-------------|
+| ![신청 멤버](https://github.com/user-attachments/assets/448ee816-33ac-493f-899b-2e755a6a5811) | ![멤버 명단](https://github.com/user-attachments/assets/9b2a1208-467f-4f91-9a6f-8d984686d74b) |
+
+---
+
+### 🗒️ 게시판 및 기타 화면
+| 게시판 작성 | 챗봇 | 메인페이지 |
+|--------|--------|--------|
+| ![게시판](https://github.com/user-attachments/assets/3fc73286-1a79-4e25-93cc-1913f0585f30) | ![챗봇 ](https://github.com/user-attachments/assets/dc186583-7467-4201-ae66-e96be8d3fc20) | ![메인 화면](https://github.com/user-attachments/assets/4258adf9-09a4-4bdd-8a69-5fe9b38bbf20) |
+
 
 
 ## 🛠️ 기술 스택
-
-
 
 ### ⚡️Language & Framework
 
