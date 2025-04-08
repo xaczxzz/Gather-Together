@@ -47,7 +47,7 @@
 
 </br>
 
-## 작업일지 
+## 작업일지 25.02~25.04
 - **[개발 작업 일지](https://fringe-girdle-ad7.notion.site/16fb7e7082ee8028a3b9eaf39852ed03)**
 
 
@@ -88,6 +88,11 @@
 | 게시판 작성                                                                                | 챗봇                                                                                      | 메인페이지                                                                                    |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | <img src="https://github.com/user-attachments/assets/3fc73286-1a79-4e25-93cc-1913f0585f30" width="300"/> | <img src="https://github.com/user-attachments/assets/dc186583-7467-4201-ae66-e96be8d3fc20" width="300"/> | <img src="https://github.com/user-attachments/assets/4258adf9-09a4-4bdd-8a69-5fe9b38bbf20" width="300"/> |
+
+## Architecture
+![시스템 아키텍처](https://github.com/user-attachments/assets/e55acc97-615f-4dde-8fe9-763500653afb)
+
+
 ## 🛠️ 기술 스택
 
 ### ⚡️Language & Framework
