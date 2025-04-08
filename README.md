@@ -16,8 +16,6 @@
 > - 동아리 챗봇: 궁금한 내용을 빠르게 검색하고 답변받을 수 있는 스마트 도우미.
 > - 직관적 UI/UX: 복잡함을 덜어내고, 누구나 쉽게 사용할 수 있는 깔끔한 인터페이스
 
-
-
 ### FE
 
 > - camera 라이브러리를 이용한 QR 출석
@@ -50,46 +48,42 @@
 </br>
 
 ## RAG 생성 과정
+
 <div align="center">
     <img src="https://github.com/user-attachments/assets/9466fac8-7bc2-4b59-96ef-ec3959fed119" alt="동아리 챗봇" width="300" />
 </div>
 
 ## 📱 프로젝트 화면 구성
 
-
-
-
 ### 🔐 회원 관련 화면
-| 회원 가입 | 메인 화면 |
-|-----------|------------|
-| ![회원 가입](https://github.com/user-attachments/assets/c2ac8598-e6ef-497a-9e17-9aac417c0008) | ![로그인 페이지](https://github.com/user-attachments/assets/d5bed1a7-8313-4a44-b40c-d6398c50314c)
-d8) |
 
-
+| 회원 가입                                                                                     | 메인 화면                                                                                         |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/c2ac8598-e6ef-497a-9e17-9aac417c0008" width="300"/> | <img src="https://github.com/user-attachments/assets/d5bed1a7-8313-4a44-b40c-d6398c50314c" width="300"/> |
 
 ---
-### 📋 출석 관련 화면
-| 관리자 출석 명단 | 관리자 출석 변경 | 개인 출석 현황 | 관리자 출석 |
-|-----------|------------|----------|--------------|
-| ![출석 명단](https://github.com/user-attachments/assets/9af2f4fa-90a0-4b1d-afaa-7f880c9a3a42) | ![출석 변경](https://github.com/user-attachments/assets/e9ba9e2c-38fe-4b4a-b4fc-ee92da3be430) | ![개인 출석 현황](https://github.com/user-attachments/assets/d3a9a473-84c5-4539-b699-53c2a609afc2) |![관리자 출석 확인 ](https://github.com/user-attachments/assets/83f88a67-4e16-4d9d-9683-ab374225c6e7)
 
+### 📋 출석 관련 화면
+
+| 관리자 출석 명단                                                                              | 관리자 출석 변경                                                                              | 개인 출석 현황                                                                                     | 관리자 출석                                                                                           |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/9af2f4fa-90a0-4b1d-afaa-7f880c9a3a42" width="300"/> | <img src="https://github.com/user-attachments/assets/e9ba9e2c-38fe-4b4a-b4fc-ee92da3be430" width="300"/> | <img src="https://github.com/user-attachments/assets/d3a9a473-84c5-4539-b699-53c2a609afc2" width="300"/> | <img src="https://github.com/user-attachments/assets/83f88a67-4e16-4d9d-9683-ab374225c6e7" width="300"/> |
 
 ---
 
 ### 🧑‍🤝‍🧑 멤버 및 신청 화면
-| 신청 멤버 | 멤버 명단 |
-|-----------|-------------|
-| ![신청 멤버](https://github.com/user-attachments/assets/448ee816-33ac-493f-899b-2e755a6a5811) | ![멤버 명단](https://github.com/user-attachments/assets/9b2a1208-467f-4f91-9a6f-8d984686d74b) |
+
+| 신청 멤버                                                                                     | 멤버 명단                                                                                     |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/448ee816-33ac-493f-899b-2e755a6a5811" width="300"/> | <img src="https://github.com/user-attachments/assets/9b2a1208-467f-4f91-9a6f-8d984686d74b" width="300"/> |
 
 ---
 
 ### 🗒️ 게시판 및 기타 화면
-| 게시판 작성 | 챗봇 | 메인페이지 |
-|--------|--------|--------|
-| ![게시판](https://github.com/user-attachments/assets/3fc73286-1a79-4e25-93cc-1913f0585f30) | ![챗봇 ](https://github.com/user-attachments/assets/dc186583-7467-4201-ae66-e96be8d3fc20) | ![메인 화면](https://github.com/user-attachments/assets/4258adf9-09a4-4bdd-8a69-5fe9b38bbf20) |
 
-
-
+| 게시판 작성                                                                                | 챗봇                                                                                      | 메인페이지                                                                                    |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/3fc73286-1a79-4e25-93cc-1913f0585f30" width="300"/> | <img src="https://github.com/user-attachments/assets/dc186583-7467-4201-ae66-e96be8d3fc20" width="300"/> | <img src="https://github.com/user-attachments/assets/4258adf9-09a4-4bdd-8a69-5fe9b38bbf20" width="300"/> |
 ## 🛠️ 기술 스택
 
 ### ⚡️Language & Framework
@@ -97,28 +91,30 @@ d8) |
 ![springboot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)  
 ![reactnative](https://img.shields.io/badge/reactnative-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-###  Database
+### Database
 
 ![postgresql](https://img.shields.io/badge/postgresql-4479A1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-###  AI 
+### AI
 
 ![ollama](https://img.shields.io/badge/ollama-0078D4?style=for-the-badge&logo=meta&logoColor=white)
 
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=HuggingFace&logoColor=white)
 
-###  Tools
+### Tools
 
 ![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ---
 
-
-
 </br>
 
-|                류명재               |
-| :-----------------------------------:             
+<div align="center">
+
+| 류명재 |
+| :----: |
 | [xaczxzz](https://github.com/xaczxzz) |
-| <img src ="https://avatars.githubusercontent.com/u/101166893?v=4" width="300"/>|
+<img src="https://avatars.githubusercontent.com/u/101166893?v=4" width="300"/>
+
+</div>
