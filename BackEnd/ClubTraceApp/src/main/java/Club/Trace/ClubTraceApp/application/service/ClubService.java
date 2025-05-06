@@ -58,7 +58,6 @@ public class ClubService {
     // 챗 기능
     @Async
     public CompletableFuture<String> processChatRequest(String query, String sessionId) {
-        System.out.println("여기 안오노?1");
         if (!bucketConfig.tryConsume(sessionId)) {
             CompletableFuture<String> failedFuture = new CompletableFuture<>();
             failedFuture.completeExceptionally(
@@ -66,7 +65,6 @@ public class ClubService {
             );
 
         }
-        System.out.println("여기 안오노?2");
         return ragWebClient.get()
                 .uri(uriBuilder -> uriBuilder.path("/ask").queryParam("query",query).build())
                 .retrieve()
